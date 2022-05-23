@@ -87,7 +87,7 @@ export const PaddingStart: UtilityClassDefinition = {
     "ps-(0|1|2|3|4|5|auto)",
     `ps-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -98,7 +98,7 @@ export const PaddingEnd: UtilityClassDefinition = {
     "pe-(0|1|2|3|4|5|auto)",
     `pe-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -109,7 +109,7 @@ export const PaddingTop: UtilityClassDefinition = {
     "pt-(0|1|2|3|4|5|auto)",
     `pt-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -120,7 +120,7 @@ export const PaddingBottom: UtilityClassDefinition = {
     "pb-(0|1|2|3|4|5|auto)",
     `pb-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -131,7 +131,7 @@ export const PaddingVertical: UtilityClassDefinition = {
     "py-(0|1|2|3|4|5|auto)",
     `py-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -142,7 +142,7 @@ export const PaddingHorizontal: UtilityClassDefinition = {
     "px-(0|1|2|3|4|5|auto)",
     `px-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -153,7 +153,7 @@ export const PaddingAll: UtilityClassDefinition = {
     "p-(0|1|2|3|4|5|auto)",
     `p-(${themeBreakpoints})-(0|1|2|3|4|5|auto)`,
   ],
-  tags: ["Spacing"],
+  tags: ["Spacing", "Padding"],
   documentationLink:
     "https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding",
 };
@@ -662,7 +662,7 @@ export const NavbarExpand: UtilityClassDefinition = {
   documentationLink: "https://getbootstrap.com/docs/5.0/components/navbar/",
 };
 export const Container: UtilityClassDefinition = {
-  name: "Type",
+  name: "Container Type",
   type: "selectOne",
   classes: ["container", "container-fluid", `container-(${themeBreakpoints})`],
   tags: ["Container"],
